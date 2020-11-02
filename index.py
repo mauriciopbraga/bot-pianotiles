@@ -4,8 +4,8 @@ import keyboard
 import random
 import win32api, win32con
 
-def clique(x, y):
-    win32api.SetCursorPos((x, y))
+def clique(largura, altura):
+    win32api.SetCursorPos((largura, altura))
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0)
     time.sleep(0.01)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0)
