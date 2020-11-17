@@ -1,3 +1,12 @@
+'''
+instalar bibliotecas
+
+pip install pywin32
+pip install keyboard
+pip install pyautogui
+pip install opencv-python
+'''
+
 #libs
 import pyautogui
 import time
